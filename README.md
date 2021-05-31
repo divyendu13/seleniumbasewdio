@@ -15,10 +15,13 @@
 ## Instruction to run test in local env
 
 Clone or Download the repository and open the project in VS Code.
-All the dependencies are mentioned in package.json file will be installed on below cmd
+All the dependencies are mentioned in package.json file will be installed on below cmd.
 Go to the terminal and type below command
 ```sh
 npm install
+```
+To run the end to end sample test type below cmd
+```sh
 npx wdio run ./wdio.conf.js
 ```
 To see the allure reporting type below in terminal
