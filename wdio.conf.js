@@ -1,4 +1,4 @@
-const video = require('wdio-video-reporter');
+//const video = require('wdio-video-reporter');
 exports.config = {
     //
     // ====================
@@ -114,7 +114,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver'],
+    //services: ['chromedriver'],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -139,11 +139,11 @@ exports.config = {
     //reporters: ['spec',['allure', {outputDir: 'allure-results'}]],
     reporters: [
         'spec',
-        [video, {
-          saveAllVideos: true,       // If true, also saves videos for successful test cases
-          videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
-          videoRenderTimeout: 5,      // Max seconds to wait for a video to finish rendering
-        }],
+        // [video, {
+        //   saveAllVideos: true,       // If true, also saves videos for successful test cases
+        //   videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+        //   videoRenderTimeout: 5,      // Max seconds to wait for a video to finish rendering
+        // }],
         ['allure', {
           outputDir: './allure-results',
           disableWebdriverStepsReporting: true,
