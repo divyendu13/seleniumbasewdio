@@ -89,6 +89,10 @@ describe('Selenium Base demo page example tests', () =>
        await (await DemoPage.mylink4).click()
     });
 
+    it('should drag and drop', async()=>{
+        await DemoPage.open('other/drag_and_drop')
+    })
+
 });
 
 
