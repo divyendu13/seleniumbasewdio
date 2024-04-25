@@ -2,7 +2,7 @@
 ## The project is about all basic automation on a demo website. Project uses below tool/library/framework/language
 - JavaScript
 - Mocha
-- Webdriverio v7
+- Webdriverio v8
 - Nodejs
 ## Task
 - 15 Tasks automated.
@@ -28,5 +28,5 @@ To see the allure reporting type below in terminal
 ```sh
 allure serve -h localhost
 ```
-### Note - User must have nodejs 14v LTS installed.
+### Note - User must have nodejs 20v LTS installed.
 
