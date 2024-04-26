@@ -91,6 +91,14 @@ describe('Selenium Base demo page example tests', () =>
 
     it('should drag and drop', async()=>{
         await DemoPage.open('other/drag_and_drop')
+        //browser.uploadFile(localPath) - method for upload
+        /**
+         * const filePath = '/path/to/some/file.png'
+        const remoteFilePath = await browser.uploadFile(filePath)
+
+        await $('#file-upload').setValue(remoteFilePath)
+        await $('#file-submit').click()
+         */
     })
 
 });
